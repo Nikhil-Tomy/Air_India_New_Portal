@@ -1,3 +1,125 @@
-h1{
-    color: red;
+html {
+    height: 100%
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container-np {
+    max-width: 1233px;
+    margin: auto;
+}
+.hero-banner {
+    background: url('https://res.cloudinary.com/dwb33nnsu/image/upload/v1696921459/Air%20India%20New%20Portal/hero_banner_ew2ha6.png');
+    height: 822px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.hero-banner__text{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.announcements__tag{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    text-transform: uppercase;
+}
+.announcements__title{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 48px */
+    text-transform: capitalize; 
+}
+.feature-item{
+    display: flex;
+}
+.feature-img{
+
+}
+.feature-detail{
+
+}
+
+
+
+
+
+/* Press release grid styles start here */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px 25px; /* Combining column and row gap */
+}
+.card{
+    /* max-width: 394px; */
+}
+.card p {
+    margin:0;
+}
+.card__details{
+    padding: 24px;
+}
+.card__image{
+    display: block;
+}
+.card__tag{
+    color: #C02D32;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+}
+.card__title{
+    color: var(--grayscale-900, #121127);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.6px */
+    padding-top: 16px;
+    padding-bottom: 9px;
+}
+.card__desc{
+    color: var(--grayscale-900-opacity-56, rgba(18, 17, 39, 0.56));
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%; /* 22.4px */
+}
+.card__link{
+    color: #C02D32;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+    text-transform: uppercase;
+    padding: 16px 0px 16px 0px;
+}
+.card__date{
+    color: var(--grayscale-900-opacity-56, rgba(18, 17, 39, 0.56));
+    /* Body / xs */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 21.6px */
 }
